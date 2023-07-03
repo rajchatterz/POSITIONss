@@ -1,0 +1,56 @@
+.box{
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+    display: flex;
+    margin: auto;
+    border: 2px solid red;
+}
+body{
+    width: 100vw;
+    display: flex;
+
+}
+/* 
+
+    POSITION::
+        STATIC:  IS THE DEFAULT POSITION FOR HTML ELEMENT.
+*/
+#box1{
+    position: static;
+    top: 200px;
+}
+
+/* 
+    POSITION
+        FIXED: WHEN A ELEMENT IS FIXED AND REMOVEED FROM THR NORMAL FLOW AND REMAINS FIXED AT THE POSITION.
+*/
+#box2{
+    position: fixed;
+    top: 300px;
+}
+
+/* 
+    POSITION
+        STICKY: IT IS THE HYBRID RELATIVE AND FIXED POSITIONING
+*/
+#box3{
+    position: sticky;
+    top: 200px;
+}
+/* 
+    POSITION
+        RELATIVE: IT WILL ALLOW A ELEMENT TO MOVE FROM ITS ORIGINAL POSITION
+*/
+#box4{
+    position: relative;
+    top: 300px;
+}
+/* 
+    POSITION
+        ABSOLUTE: IT WILL A ELEMENT TO MOVE FROM ITS ROOT ELEMENT
+*/
+#box5{
+    position: absolute;
+    top: 200px;
+}
